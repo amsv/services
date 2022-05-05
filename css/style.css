@@ -13,9 +13,9 @@
     margin: 0 !important;    
 } 
 
-.wrap:hover >  .pixel-perfect-image {
+/* .wrap:hover >  .pixel-perfect-image {
     z-index: -1;
-  }
+  } */
 
 .header{
     height: 88px;
@@ -76,7 +76,7 @@
     width: 4px;
     height: 40px;
     float: left;
-    margin-right: 20px;
+    margin-right: 12px;
     background: #41F6D7;
     border-radius: 0 20px 20px 0;
 }
