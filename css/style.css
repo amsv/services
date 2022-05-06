@@ -9,14 +9,13 @@
 }
 
  body{
-    background-color: grey;
     margin: 0 !important;    
 } 
 
-.wrap:hover >  .pixel-perfect-image {
-    /* z-index: -1; */
-    opacity: 1;
-  }
+/* .wrap:hover >  .pixel-perfect-image {
+    z-index: -1;
+    opacity: 0.7;
+  } */
 
 .header{
     height: 88px;
@@ -29,10 +28,10 @@
     border-bottom:1px solid #D9FFF5  ;
 
 }
-.header__items{
+.header__item{
     margin: 0 5px;
 }
-.header__items--change-margin{
+.header__item--change-margin{
     margin-right: 0;
 }
 .header__space{
@@ -64,6 +63,7 @@
 
 .services__title{
     margin-top: 24px;
+    margin-bottom: 24px;
     font-family: 'TT Lakes';
     font-weight: 700;
     font-size: 28px;
@@ -104,28 +104,67 @@
 
     color: #7E7E82;
 
-    background: #FFFFFF;
-    border: 2px solid #B8FFEC;
+    background: inherit;
+
     box-sizing: border-box;
     border-radius: 6px;
-
+    border: 2px solid #F8F8F8;
     white-space: nowrap;
-
+    padding-left: 3px;
     margin-left: 16px;
-    padding: 8px;
+
 }
-.menu__item--line-left{
-    margin-left: 15px;
+
+.menu__item--active{
+    border: 2px solid #B8FFEC;
+    background: #FFFFFF; 
+    padding: 6px 14px;
 }
 
 .menu__link{
     text-decoration: none;
+    color: #7E7E82;
 }
-.menu__item--line-left::before{ 
-    content: " ";
-    background: #EAEAEA;
-    width: 2px;
-    height: 32px;
-    position: absolute;
-    transform: translate(-10px,5px);
-    }
+
+.article{
+    font-family: 'TT Lakes';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+}
+
+.article__text{
+    margin: 24px 16px 0 16px;
+}
+
+.article__text--hidden{
+    display: none;
+}
+
+.article__more{
+    font-family: 'TT Lakes';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.2px;
+
+    color: #1B1C21;
+  
+    margin: 16px auto auto 24px;
+}
+
+.article__more--with-icon{
+    padding-left: 24px;
+    background-image: url("../img/icon.png");
+    background-position: left center;
+    background-size: 8px 11px;
+    background-repeat: no-repeat;
+  }
+  .article_img{
+      margin-top: 16px;
+  } 
+  
