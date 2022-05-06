@@ -2,11 +2,11 @@
 @import "/font/TTLakes/stylesheet.css";
 @import "/css/pixel-perfect-image.css";
 
-.wrap{
+/* .wrap{
     width:320px;
     margin: 0 auto;
     background-color: white;
-}
+} */
 
  body{
     margin: 0 !important;    
@@ -148,13 +148,15 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
+    display: block;
+    text-decoration: none;
 
     letter-spacing: -0.2px;
 
     color: #1B1C21;
   
     margin: 16px auto auto 24px;
+
 }
 
 .article__more--with-icon{
