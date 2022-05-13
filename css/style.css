@@ -2,7 +2,7 @@
 @import "/font/TTLakes/stylesheet.css";
 @import "/css/pixel-perfect-image.css";
 /* для pixelP > */
-.wrap{
+/* .wrap{
     width:320px; 
     margin: 0 auto;
 } 
@@ -15,16 +15,15 @@
     .wrap{
         width:1121px;
     }
-}
-body{
+} */
+/* body{
     margin: 0 !important;    
     background-color: grey;
 } 
 
 .wrap:hover >  .pixel-perfect-image {
-    /* z-index: -1; */
     opacity: 0.6;
-} 
+}  */
 
 /* < для pixelP */
 
@@ -165,17 +164,9 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
     letter-spacing: -0.2px;
-
-    /* color: #7E7E82; */
-
-    /* background: inherit; */
-
     box-sizing: border-box;
-    /* border-radius: 6px; */
     white-space: nowrap;
-    /* padding: 5px; */
     margin-right: 19px;
 }
 
@@ -189,14 +180,17 @@ body{
     background: #FFFFFF; 
     padding: 6px 15px;
 }
-.menu__item--margin-left_10{
-    margin-left: 10px;
-}
+
 @media (min-width: 784px) and (max-width: 1120.99px){
     .menu__item--active{
         margin-right: 18px;
     }    
 }
+
+.menu__item--margin-left_10{
+    margin-left: 10px;
+}
+
 .menu__link{
     text-decoration: none;
     color: #7E7E82;
@@ -279,14 +273,14 @@ body{
       margin-top: 16px;
       width: 320px;
       height: 176px;
-      background-image: url("/img/mob_mask_picture.png");    
+      background-image: url("/img/picture_m.png");    
   } 
   
 @media (min-width: 784px) and (max-width: 1120.99px){
     .article__img{
         width: 360px;
         height: 208px;
-        background-image: url("/img/planshet_mask_MG_3223.png");
+        background-image: url("/img/picture_s.png");
         margin-top: 32px;
         margin-bottom: 40px;    
     }   
