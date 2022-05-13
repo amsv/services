@@ -3,10 +3,19 @@
 @import "/css/pixel-perfect-image.css";
 /* для pixelP > */
 .wrap{
-    width:320px;
+    width:320px; 
     margin: 0 auto;
 } 
-
+@media (min-width: 784px) and (max-width: 1120.99px) {
+    .wrap{
+        width:784px;
+    }
+}
+@media (min-width: 1121px) {
+    .wrap{
+        width:1121px;
+    }
+}
 body{
     margin: 0 !important;    
     background-color: grey;
@@ -25,25 +34,64 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-top: 4px;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 0;
+    padding-left: 16px;
     border-bottom:1px solid #D9FFF5;
     background-color: white;
 
 }
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .header{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
 .header__item{
-    margin: 0 5px;
+    margin: 0;
+    margin-right: 16px;
 }
 .header__item--change-margin{
-    margin-right: 0;
+    margin-right: 16px;
+    margin-left: 22px;
+}
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .header__item--change-margin {
+        margin-left: 26px;
+    }
 }
 .header__space{
     flex-grow: 1;
 }
-
+.header__additional-buttons{
+    display: none;
+}
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .header__additional-buttons{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+.logo{
+    margin-left: 0;
+}
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .logo{
+        margin-left: 26px;
+    }
+    .logo__link::before{
+        content: " ";
+        background: #EAEAEA;
+        width: 2px;
+        height: 32px;
+        position: absolute;
+        transform: translate(-22px,10px);
+    }
+}
 .button {
     border: none;
-    background: none;    
+    background: none;
+    padding-left: 0;
+    padding-right: 0;    
 }
 
 .button--left-line::before{ 
@@ -52,7 +100,7 @@ body{
     width: 2px;
     height: 32px;
     position: absolute;
-    transform: translate(-20px,4px);
+    transform: translate(-22px,4px);
     }
 
 .main{
@@ -85,6 +133,15 @@ body{
     border-radius: 0 20px 20px 0;
 }
 
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .services__title{
+        margin-bottom: 32px;
+    }    
+    .services__title::before{
+        margin-right: 20px;
+    }
+}
+
 .menu__list{
     list-style: none;
     margin: 0;
@@ -93,6 +150,12 @@ body{
     justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
+    margin-left: 16px;
+}
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .menu__list {
+        margin-left: 24px;
+    }
 }
 .menu__list--height-top-menu{
     height: 88px;
@@ -105,24 +168,35 @@ body{
 
     letter-spacing: -0.2px;
 
-    color: #7E7E82;
+    /* color: #7E7E82; */
 
-    background: inherit;
+    /* background: inherit; */
 
     box-sizing: border-box;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     white-space: nowrap;
-    padding-left: 5px;
-    margin-left: 16px;
-
+    /* padding: 5px; */
+    margin-right: 19px;
 }
 
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .menu__item{
+        margin-right: 28px;
+    }    
+}
 .menu__item--active{
     border: 2px solid #B8FFEC;
     background: #FFFFFF; 
-    padding: 6px 14px;
+    padding: 6px 15px;
 }
-
+.menu__item--margin-left_10{
+    margin-left: 10px;
+}
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .menu__item--active{
+        margin-right: 18px;
+    }    
+}
 .menu__link{
     text-decoration: none;
     color: #7E7E82;
@@ -135,16 +209,45 @@ body{
     line-height: 18px;
     letter-spacing: 0.2px;
     color: #1B1C21;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .article{
+        flex-direction: row;
+        padding-left: 24px;
+        padding-right: 40px;
+    }    
+}
+
+.article_img-block{
+    font-size: 0;
 }
 
 .article__text{
+    margin: 0;
+}
+.article__text-block{
     margin: 24px 16px 0 16px;
 }
 
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .article__text-block {
+        margin: 32px 48px 0 0px;
+    }
+}
 .article__text--hidden{
     display: none;
 }
-
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .article__text{
+        line-height: 20px;
+        margin-bottom: 21px;
+    }
+    .article__text--hidden{
+        display: block;
+    }
+}
 .article__more{
     font-family: 'TT Lakes';
     font-weight: 500;
@@ -157,10 +260,14 @@ body{
 
     color: #1B1C21;
   
-    margin: 16px auto auto 24px;
+    margin: 16px 0 0 8px;
 
 }
-
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .article__more {
+        margin: -12px 0 0 9px;
+    }
+}
 .article__more--with-icon{
     padding-left: 24px;
     background-image: url("../img/icon.png");
@@ -168,7 +275,19 @@ body{
     background-size: 8px 11px;
     background-repeat: no-repeat;
   }
-  .article_img{
+  .article__img{
       margin-top: 16px;
+      width: 320px;
+      height: 176px;
+      background-image: url("/img/mob_mask_picture.png");    
   } 
   
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .article__img{
+        width: 360px;
+        height: 208px;
+        background-image: url("/img/planshet_mask_MG_3223.png");
+        margin-top: 32px;
+        margin-bottom: 40px;    
+    }   
+  }
