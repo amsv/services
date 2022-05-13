@@ -1,6 +1,6 @@
-@import "/css/html-on-border-box.css";
-@import "/font/TTLakes/stylesheet.css";
-@import "/css/pixel-perfect-image.css";
+@import "../css/html-on-border-box.css";
+@import "../font/TTLakes/stylesheet.css";
+@import "../css/pixel-perfect-image.css";
 /* для pixelP > */
 /* .wrap{
     width:320px; 
@@ -280,7 +280,7 @@
     .article__img{
         width: 360px;
         height: 208px;
-        background-image: url("../img/picture_s.png");
+        background-image: url("..ё/img/picture_s.png");
         margin-top: 32px;
         margin-bottom: 40px;    
     }   
