@@ -9,7 +9,12 @@
     <title>CPS сервисный центр</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<div class="wrap">
+        <!-- Pixel-perfect-image -->
+        <!-- <img class="pixel-perfect-image" src="img/services_320.png" alt=""> -->
+        <!-- <img class="pixel-perfect-image" src="img/2_services_software_768.png" alt=""> -->
+        <img class="pixel-perfect-image" src="img/2_services_1120.png" alt="">
+
     <header class="header">
         <div class="header__item">
             <button class="button">
@@ -56,14 +61,28 @@
     <main class="main">
         <div class="services">
             <h1 class="services__title">Услуги и сервисы</h1>
+            <div class="services__buttons" hidden>
+                <div class="services__item">
+                    Оставить заявку
+                    <button class="button button--margin-left--9">
+                        <img src="img/ic-repair.svg" alt="">
+                    </button>
+                </div>
+                <div class="services__item">
+                    Статус ремонта
+                    <button class="button button--margin-left--9">
+                        <img src="img/ic-checkstatus.svg" alt="">
+                    </button>
+                </div>
+            </div>
         </div>
         <nav class="menu">
             <ul class="menu__list">
-                <li class="menu__item" hidden><a href="#" class="menu__link">Ремонтируемые бренды</a></li>
-                <li class="menu__item menu__item--active"><a href="#" class="menu__link">Ремонтируемые устройства</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Дополнительные услуги</a></li>
+                <li class="menu__item menu__item--border-maxsize" hidden><a href="#" class="menu__link">Ремонтируемые бренды</a></li>
+                <li class="menu__item menu__item--border-mobile"><a href="#" class="menu__link">Ремонтируемые устройства</a></li>
+                <li class="menu__item menu__item--visible"><a href="#" class="menu__link">Дополнительные услуги</a></li>
                 <li class="menu__item"><a href="#" class="menu__link">Цены на услуги</a></li>
-                <li class="menu__item" hidden><a href="#" class="menu__link">Адреса сервисных центров</a></li>
+                <li class="menu__item menu__item--visible-maxsize"><a href="#" class="menu__link">Адреса сервисных центров</a></li>
                 <li class="menu__item menu__item--margin-left_10"><a href="#" class="menu__link">Специальные цены</a></li>
                 <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
             </ul>
@@ -84,5 +103,6 @@
             </div>
         </article>
     </main>
+</div>    
 </body>
 </html>
