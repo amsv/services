@@ -9,7 +9,7 @@
     font-style: italic;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'TT Lakes Condensed';
     src: url('TTLakesCondensed-ExtraLight.eot');
     src: local('TT Lakes Condensed ExtraLight'), local('TTLakesCondensed-ExtraLight'),
@@ -62,7 +62,7 @@
         url('TTLakesCompressed-ExtraBoldItalic.ttf') format('truetype');
     font-weight: 800;
     font-style: italic;
-}
+} */
 
 @font-face {
     font-family: 'TT Lakes';
@@ -108,7 +108,7 @@
     font-style: italic;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'TT Lakes Condensed';
     src: url('TTLakesCondensed-Black.eot');
     src: local('TT Lakes Condensed Black'), local('TTLakesCondensed-Black'),
@@ -150,7 +150,7 @@
         url('TTLakesCompressed-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: 'TT Lakes';
@@ -174,7 +174,7 @@
     font-style: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'TT Lakes Condensed';
     src: url('TTLakesCondensed-Bold.eot');
     src: local('TT Lakes Condensed Bold'), local('TTLakesCondensed-Bold'),
@@ -282,7 +282,7 @@
         url('TTLakesCondensed-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: 'TT Lakes';
@@ -306,7 +306,7 @@
     font-style: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'TT Lakes Compressed';
     src: url('TTLakesCompressed-Thin.eot');
     src: local('TT Lakes Compressed Thin'), local('TTLakesCompressed-Thin'),
@@ -315,7 +315,7 @@
         url('TTLakesCompressed-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: 'TT Lakes';
@@ -339,7 +339,7 @@
     font-style: italic;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'TT Lakes Condensed';
     src: url('TTLakesCondensed-ExtraBold.eot');
     src: local('TT Lakes Condensed ExtraBold'), local('TTLakesCondensed-ExtraBold'),
@@ -359,7 +359,7 @@
         url('TTLakesCondensed-ExtraLightItalic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
-}
+} */
 
 @font-face {
     font-family: 'TT Lakes';
@@ -372,7 +372,7 @@
     font-style: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'TT Lakes Condensed';
     src: url('TTLakesCondensed-DemiBoldItalic.eot');
     src: local('TT Lakes Condensed DemiBold Italic'), local('TTLakesCondensed-DemiBoldItalic'),
@@ -403,7 +403,7 @@
         url('TTLakesCompressed-ExtraLightItalic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
-}
+} */
 
 @font-face {
     font-family: 'TT Lakes';
@@ -427,7 +427,7 @@
     font-style: italic;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'TT Lakes Condensed';
     src: url('TTLakesCondensed-MediumItalic.eot');
     src: local('TT Lakes Condensed Medium Italic'), local('TTLakesCondensed-MediumItalic'),
@@ -447,7 +447,7 @@
         url('TTLakesCondensed-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
-}
+} */
 
 @font-face {
     font-family: 'TT Lakes';
@@ -460,7 +460,7 @@
     font-style: italic;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'TT Lakes Compressed';
     src: url('TTLakesCompressed-DemiBold.eot');
     src: local('TT Lakes Compressed DemiBold'), local('TTLakesCompressed-DemiBold'),
@@ -469,7 +469,7 @@
         url('TTLakesCompressed-DemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: 'TT Lakes';
@@ -482,7 +482,7 @@
     font-style: italic;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'TT Lakes Compressed';
     src: url('TTLakesCompressed-Bold.eot');
     src: local('TT Lakes Compressed Bold'), local('TTLakesCompressed-Bold'),
@@ -535,7 +535,7 @@
         url('TTLakesCompressed-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: 'TT Lakes';
@@ -548,7 +548,7 @@
     font-style: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'TT Lakes Compressed';
     src: url('TTLakesCompressed-DemiBoldItalic.eot');
     src: local('TT Lakes Compressed DemiBold Italic'), local('TTLakesCompressed-DemiBoldItalic'),
@@ -591,4 +591,4 @@
     font-weight: 900;
     font-style: normal;
 }
-
+ */

@@ -21,10 +21,12 @@
         display:none;
     }
 }
+
 .header__item{
     margin: 0;
     margin-right: 16px;
 }
+
 .header__item--change-margin{
     margin-right: 16px;
     margin-left: 22px;
@@ -34,9 +36,11 @@
         margin-left: 26px;
     }
 }
+
 .header__space{
     flex-grow: 1;
 }
+
 .header__additional-buttons{
     display: none;
 }
