@@ -271,11 +271,11 @@ body{
         display: none;
     }    
 }
-.menu__item--margin-left_10{
+.menu__item--margin-left{
     margin-left: 10px;
 }
 @media (min-width: 1121px){
-    .menu__item--margin-left_10{
+    .menu__item--margin-left{
         margin-left: 34px;
     }    
 }
