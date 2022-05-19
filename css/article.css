@@ -1,0 +1,119 @@
+.article{
+    font-family: 'TT Lakes';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .article{
+        flex-direction: row;
+        padding-left: 24px;
+        padding-right: 40px;
+    }    
+}
+@media (min-width: 1121px){
+    .article{
+        flex-direction: row;
+        padding-left: 24px;
+        padding-right: 40px;
+        line-height: 20px;
+    }    
+}
+.article_img-block{
+    font-size: 0;
+}
+
+.article__text{
+    margin: 0;
+}
+
+.article__text-block{
+    margin: 24px 16px 0 16px;
+}
+
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .article__text-block {
+        margin: 32px 48px 0 0px;
+    }
+}
+@media (min-width: 1121px){
+    .article__text-block{
+        margin: 18px 36px 0 12px;
+        padding-right: 26px;
+    }
+}
+.article__text--hidden{
+    display: none;
+}
+@media (min-width: 1121px){
+    .article__text--hidden{
+        display: block;
+        margin-top: 18px;
+    }
+}
+@media (min-width: 1121px){
+    .article__text-more{
+        display: inline;
+    }
+}
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .article__text{
+        line-height: 20px;
+        margin-bottom: 21px;
+    }
+    .article__text--hidden{
+        display: block;
+    }
+}
+.article__more{
+    font-family: 'TT Lakes';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: -0.2px;
+    color: #1B1C21;  
+    margin: 16px 0 0 8px;
+
+}
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .article__more {
+        margin: -12px 0 0 9px;
+    }
+}
+.article__more--with-icon{
+    padding-left: 24px;
+    background-image: url("../img/icon.png");
+    background-position: left center;
+    background-size: 8px 11px;
+    background-repeat: no-repeat;
+  }
+.article__img{
+    margin-top: 16px;
+    width: 320px;
+    height: 176px;
+    background-image: url("../img/picture_m.png");    
+}  
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .article__img{
+        width: 360px;
+        height: 208px;
+        background-image: url("../img/picture_s.png");
+        margin-top: 32px;
+        margin-bottom: 40px;    
+    }   
+}
+@media (min-width: 1121px){
+    .article__img{
+        width: 521px;
+        height: 307px;
+        background-image: url("../img/picture_max.png");
+        margin-top: 8px;
+        margin-bottom: 48px;    
+    }   
+}

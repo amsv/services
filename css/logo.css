@@ -1,0 +1,16 @@
+.logo{
+    margin-left: 0;
+}
+@media (min-width: 784px) and (max-width: 1120.99px){
+    .logo{
+        margin-left: 26px;
+    }
+    .logo__link::before{
+        content: " ";
+        background: #EAEAEA;
+        width: 2px;
+        height: 32px;
+        position: absolute;
+        transform: translate(-22px,10px);
+    }
+}

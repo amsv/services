@@ -1,8 +1,16 @@
 @import "../css/html-on-border-box.css";
 @import "../font/TTLakes/stylesheet.css";
 @import "../css/pixel-perfect-image.css";
+@import "../css/header.css";
+@import "../css/logo.css";
+@import "../css/button.css";
+@import "../css/main.css";
+@import "../css/services.css";
+@import "../css/menu.css";
+@import "../css/article.css";
+
 /* для pixelP > */
-.wrap{
+/* .wrap{
     width:320px; 
     margin: 0 auto;
 } 
@@ -23,11 +31,10 @@ body{
 
 .wrap:hover >  .pixel-perfect-image {
     opacity: 0.6;
-}  
+}   */
 /* < для pixelP */
 
-
-.header{
+/* .header{
     height: 88px;
     display: flex;
     justify-content: space-between;
@@ -74,9 +81,9 @@ body{
         display: flex;
         justify-content: flex-end;
     }
-}
+} */
 
-.logo{
+/* .logo{
     margin-left: 0;
 }
 @media (min-width: 784px) and (max-width: 1120.99px){
@@ -91,8 +98,8 @@ body{
         position: absolute;
         transform: translate(-22px,10px);
     }
-}
-.button {
+} */
+/* .button {
     border: none;
     background: none;
     padding-left: 0;
@@ -109,12 +116,12 @@ body{
     }
 .button--margin-left--9{
     margin-left: 9px;
-}
-.main{
+} */
+/* .main{
     background-color: #F8F8F8;
-}
+} */
 
-.services{
+/* .services{
     display: flex; 
     position: relative;
     justify-content: space-between; 
@@ -174,8 +181,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.menu{
+} */
+/* .menu{
     overflow: auto auto;
 }
 
@@ -271,11 +278,11 @@ body{
         display: none;
     }    
 }
-.menu__item--margin-left{
+.menu__item--margin-left_10{
     margin-left: 10px;
 }
 @media (min-width: 1121px){
-    .menu__item--margin-left{
+    .menu__item--margin-left_10{
         margin-left: 34px;
     }    
 }
@@ -291,9 +298,9 @@ body{
 .menu__link{
     text-decoration: none;
     color: #7E7E82;
-}
+} */
 
-.article{
+/* .article{
     font-family: 'TT Lakes';
     font-weight: 400;
     font-size: 14px;
@@ -411,4 +418,4 @@ body{
         margin-top: 8px;
         margin-bottom: 48px;    
     }   
-}
+} */
