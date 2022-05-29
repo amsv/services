@@ -1,6 +1,5 @@
 @import "../css/normalize.css";
-@import "../css/html-on-border-box.css";
-@import "../font/TTLakes/stylesheet.css";
+@import "../css/TTLikes-fonts.css";
 @import "../css/header.css";
 @import "../css/logo.css";
 @import "../css/button.css";
@@ -8,3 +7,36 @@
 @import "../css/services.css";
 @import "../css/menu.css";
 @import "../css/article.css";
+
+.pixel-perfect-image {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: .6;
+  }
+  
+  /* для pixelP > */
+.wrap{
+    width:320px; 
+    margin: 0 auto;
+} 
+@media (min-width: 784px) and (max-width: 1120.99px) {
+    .wrap{
+        width:784px;
+    }
+}
+@media (min-width: 1121px) {
+    .wrap{
+        width:1121px;
+    }
+} 
+body{
+    margin: 0 !important;    
+    background-color: grey;
+} 
+
+.wrap:hover >  .pixel-perfect-image {
+    opacity: 0.6;
+}  
+/* < для pixelP */
