@@ -1,11 +1,15 @@
 .button {
-    border: none;
-    background: none;
-    padding-left: 0;
-    padding-right: 0;
-    font-size: 0;    
+  border: none;
+  background: none;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 0;
 }
 
-.button--margin-left--9{
-    margin-left: 9px;
+.button--margin-left--9 {
+  margin-left: 9px;
+}
+
+.button:hover {
+  filter: hue-rotate(270deg);
 }

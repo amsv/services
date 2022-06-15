@@ -1,9 +1,12 @@
 .logo{
     margin-left: 0;
 }
-@media (min-width: 784px) and (max-width: 1120.99px){
+@media (min-width: 784px) {
     .logo{
         margin-left: 26px;
+    }
+    .logo__link{
+        position: relative;
     }
     .logo__link::before{
         content: " ";

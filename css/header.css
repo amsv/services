@@ -24,6 +24,7 @@
 .header__item{
     margin: 0;
     margin-right: 16px;
+    font-size: 0;
 }
 .header__item--left-line{
     margin-left: 20px;
@@ -31,6 +32,7 @@
 @media (min-width: 784px) and (max-width: 1120.99px){
     .header__item--left-line{
         margin-left: 0;
+        font-size: 0;
     }
 }
 .header__item--left-line::before{ 

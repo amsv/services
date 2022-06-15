@@ -1,108 +1,155 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CSP - сервисный центр по ремонту техники DELL">
-    <meta name="keywords" content="ремонт техники, сервисный центр, DELL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CSP - сервисный центр по ремонту техники DELL"
+    />
+    <meta name="keywords" content="ремонт техники, сервисный центр, DELL" />
     <title>CPS сервисный центр</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>       
-<header class="header">
-    <!-- <div class="header__item"> -->
-        <button class="header__item button">
-            <img src="img/ic-burger.svg" alt="">
-        </button>
-    <!-- </div> -->
-    <!-- <div class="header__item"> -->
-        <div class="header__item logo">
-            <a class="logo__link" href="#">
-                <img class="logo__img" src="img/logo.svg" alt="" >
-            </a>
-        </div>
-    <!-- </div> -->
-    <div class="header__space">
-        <div class="header__additional-buttons">
-            <!-- <div class="header__item"> -->
-                <button class="header__item button">
-                    <img src="img/ic-call.svg" alt="">
-                </button>
-            <!-- </div> -->
-            <!-- <div class="header__item"> -->
-                <button class="header__item button">
-                    <img src="img/ic-chat.svg" alt="">
-                </button>
-            <!-- </div> -->
-            <!-- <div class="header__item"> -->
-                <button class="header__item button">
-                    <img src="img/ic-profile.svg" alt="">
-                </button>
-            <!-- </div>                                           -->
-        </div>
-    </div>
-    <!-- <div class="header__item header__item--change-margin"> -->
-    <div class="header__item header__item--left-line">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="sidebar sidebar__indentation">
+      <div class="sidebar__header">
         <button class="button">
-            <img src="img/ic-repair.svg" alt="">
+          <img src="img/ic-cross.svg" alt="" />
         </button>
+        <div class="logo sidebar__logo">
+          <a href="#">
+            <img class="logo__img" src="img/logo.svg" alt="" />
+          </a>
+        </div>
+        <button class="button sidebar__btn-search">
+          <img src="img/ic-search.svg" alt="" />
+        </button>
+      </div>
+      <nav class="sidebar__menu">
+        <a class="sidebar__link sidebar__link-active" href="#">Ремонт техники</a>
+        <a class="sidebar__link" href="#">Услуги и сервисы</a>
+        <a class="sidebar__link" href="#">Корпоративным клиентам</a>
+        <a class="sidebar__link" href="#">Продавцам техники</a>
+        <a class="sidebar__link" href="#">Партнерам</a>
+        <a class="sidebar__link" href="#">Производителям</a>
+        <a class="sidebar__link" href="#">Наши сервисные центры</a>
+        <a class="sidebar__link" href="#">Контакты</a>
+      </nav>
+      <div class="sidebar__contact">
+        <button class="button sidebar__btn-contact">
+          <img src="img/ic-call.svg" alt="" />
+        </button>
+        <button class="button sidebar__btn-contact">
+          <img src="img/ic-chat.svg" alt="" />
+        </button>
+        <button class="button sidebar__btn-contact">
+          <img src="img/ic-profile.svg" alt="" />
+        </button>
+        <a class="sidebar__text sidebar__mail" href="mailto:mail@cps.com">mail@cps.com</a>
+        <a class="sidebar__text sidebar__tel" href="tel:+78008908900">8&nbsp;800&nbsp;890&nbsp;8900</a>
+      </div>
+      <div class="sidebar__lang">
+        <span class="sidebar__text sidebar__text--light">RU</span>
+        <span class="sidebar__text">EN</span>
+        <span class="sidebar__text">CH</span>
+      </div>
     </div>
-    <!-- <div class="header__item"> -->
-        <button class="header__item button">
-            <img src="img/ic-checkstatus.svg" alt="">
+    <header class="header">
+      <button class="header__item button">
+        <img src="img/ic-burger.svg" alt="" />
+      </button>
+      <div class="header__item logo">
+        <a class="logo__link" href="#">
+          <img class="logo__img" src="img/logo.svg" alt="" />
+        </a>
+      </div>
+      <div class="header__space">
+        <div class="header__additional-buttons">
+          <button class="header__item button">
+            <img src="img/ic-call.svg" alt="" />
+          </button>
+          <button class="header__item button">
+            <img src="img/ic-chat.svg" alt="" />
+          </button>
+          <button class="header__item button">
+            <img src="img/ic-profile.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <div class="header__item header__item--left-line">
+        <button class="button">
+          <img src="img/ic-repair.svg" alt="" />
         </button>
-    <!-- </div> -->
-</header>
-<main class="main">
-    <div class="services">
+      </div>
+      <button class="header__item button">
+        <img src="img/ic-checkstatus.svg" alt="" />
+      </button>
+    </header>
+    <main class="main">
+      <div class="services">
         <h1 class="services__title">Услуги и сервисы</h1>
         <div class="services__buttons" hidden>
-            <div class="services__item">
-                Оставить заявку
-                <button class="button button--margin-left--9">
-                    <img src="img/ic-repair.svg" alt="">
-                </button>
-            </div>
-            <div class="services__item">
-                Статус ремонта
-                <button class="button button--margin-left--9">
-                    <img src="img/ic-checkstatus.svg" alt="">
-                </button>
-            </div>
+          <div class="services__item">
+            Оставить заявку
+            <button class="button button--margin-left--9">
+              <img src="img/ic-repair.svg" alt="" />
+            </button>
+          </div>
+          <div class="services__item">
+            Статус ремонта
+            <button class="button button--margin-left--9">
+              <img src="img/ic-checkstatus.svg" alt="" />
+            </button>
+          </div>
         </div>
-    </div>
-    <nav class="menu">
+      </div>
+      <nav class="menu">
         <ul class="menu__list">
-            <li class="menu__item menu__item--border-maxsize" hidden><a href="#" class="menu__link">Ремонтируемые бренды</a></li>
-            <li class="menu__item menu__item--border-mobile"><a href="#" class="menu__link">Ремонтируемые устройства</a></li>
-            <li class="menu__item menu__item--visible"><a href="#" class="menu__link">Дополнительные услуги</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Цены на услуги</a></li>
-            <li class="menu__item menu__item--visible-maxsize"><a href="#" class="menu__link">Адреса сервисных центров</a></li>
-            <li class="menu__item menu__item--margin-left"><a href="#" class="menu__link">Специальные цены</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+          <li class="menu__item menu__item--border-maxsize" hidden>
+            <a href="#" class="menu__link">Ремонтируемые бренды</a>
+          </li>
+          <li class="menu__item menu__item--border-mobile">
+            <a href="#" class="menu__link">Ремонтируемые устройства</a>
+          </li>
+          <li class="menu__item menu__item--visible">
+            <a href="#" class="menu__link">Дополнительные услуги</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Цены на услуги</a>
+          </li>
+          <li class="menu__item menu__item--visible-maxsize">
+            <a href="#" class="menu__link">Адреса сервисных центров</a>
+          </li>
+          <li class="menu__item menu__item--margin-left">
+            <a href="#" class="menu__link">Специальные цены</a>
+          </li>
+          <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
         </ul>
-    </nav>
-    <article class="article">
+      </nav>
+      <article class="article">
         <div class="article__text-block">
-            <div class="article__text">
-                <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-                <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера , что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>        
-            </div>
-            <!-- <p class="article__text article__text--hidden">    -->
-            <!-- <p class="article__text">    -->
-            <!-- <span class="article__text-more" hidden> -->
-            
-                <!-- </span> -->
-            <!-- </p> -->
-            <a class="article__more article__more--with-icon" href="#">Читать далее
-            </a>
+          <div class="article__text">
+            <p>
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+            </p>
+            <p>
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера , что подтверждает большое количество постоянных
+              клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+              и, в свою очередь, советуют нас родным и близким.
+            </p>
+          </div>
+          <a class="article__more article__more--with-icon" href="#">Читать далее
+          </a>
         </div>
         <div class="article__img-block">
-            <div class="article__img"></div>
+          <div class="article__img"></div>
         </div>
-    </article>
-</main>
-<!-- </div> -->
-</body>
+      </article>
+    </main>
+  </body>
 </html>
