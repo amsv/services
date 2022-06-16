@@ -1,7 +1,7 @@
 .sidebar {
     position: fixed;
     z-index: 10;
-    max-height: 100vh;
+    height: 95%;
     width: 320px;
     display: flex;
     flex-direction: column;
