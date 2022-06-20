@@ -97,11 +97,11 @@
     }    
 }
 
-.menu__item--margin-left{
+.menu__item--indentation{
     margin-left: 10px;
 }
 @media (min-width: 1121px){
-    .menu__item--margin-left{
+    .menu__item--indentation{
         margin-left: 34px;
     }    
 }
