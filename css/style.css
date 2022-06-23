@@ -1,10 +1,14 @@
-@import "../css/normalize.css";
-@import "../css/TTLikes-fonts.css";
-@import "../css/header.css";
-@import "../css/logo.css";
-@import "../css/button.css";
-@import "../css/main.css";
-@import "../css/services.css";
-@import "../css/menu.css";
-@import "../css/article.css";
-@import "../css/sidebar.css";
+@import "./normalize";
+@import "./fonts.css";
+@import "./blocks/header.css";
+@import "./blocks/logo.css";
+@import "./blocks/button.css";
+@import "./blocks/main.css";
+@import "./blocks/services.css";
+@import "./blocks/menu.css";
+@import "./blocks/article.css";
+@import "./blocks/sidebar.css";
+
+/* в свойствах fonts доваить алтернативыне шрифты */
+/* добваить анимацию при навеждения на пункты меню */
+/* ДОБАВИТЬ ОВЕРЛЕЙ ДЛЯ САЙДБАРА */
